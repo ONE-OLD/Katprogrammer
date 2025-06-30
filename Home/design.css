@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+header {
+    background-image: url('Images/Cyberattaque\ contre\ le\ ministère\ des\ Affaires\ étrangères\ _\ lAllemagne\ accuse\ la\ Russie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-bottom: solid #f50000be;
+}
+header img{
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.app-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.app {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #9c9c9c;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #f50000be;
+   
+}
+.app:hover{
+    box-shadow: #f50000be;
+    transition: 0.4s;
+}
+
+.app img {
+    width: 100px;
+    height: 100px;
+}
+#apps h2{
+    color: #fff;
+}
+
+button {
+    background-color: #570000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ 
+.container2{
+    max-width: 1170px;
+    margin: auto;
+  }
+  .container2 p{
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    padding: 70px 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 10px #f50000be;
+   
+  }
+  .footer-col{
+    width: 22%;
+    padding: 0 15px;
+  }
+  .footer-col h4{
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #f50000be;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+     margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: -40px;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #f50000be;
+    padding-left: 10px;
+  }
+  .footer-col .social-links a{
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background-color: #f50000be;
+      margin: 0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #fff;
+    background-color: #000;
+  }
+  
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col {
+      width: 50%;
+      padding: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col {
+      width: 100%;
+  }
+  }

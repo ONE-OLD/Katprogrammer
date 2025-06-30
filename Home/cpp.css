@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1c1c1c;
+    width: 100%;
+    bottom: 0;
+}
+.course{
+    background-image: url('Images/Cyberattaque\ contre\ le\ ministère\ des\ Affaires\ étrangères\ _\ lAllemagne\ accuse\ la\ Russie.jpg');
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: 5px 5px 5px 5px black;
+    display: inline-table;
+    margin-left: 0.5cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img{
+    border-radius: 10px;
+}
+
+img:hover{
+    padding: 0.3cm;
+    transition: 0.5s;
+    background-image: url('Images/Cyberattaque\ contre\ le\ ministère\ des\ Affaires\ étrangères\ _\ lAllemagne\ accuse\ la\ Russie.jpg');
+}
+.h2{
+    color: bisque;
+}
+
+span{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222222;
+}
+
+.center{
+    text-align: center;
+}

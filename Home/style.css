@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+ 
+h2{
+  color: aliceblue;
+}
+
+.book-box .pos{
+  color: aliceblue;
+}
+
+.book-box a{
+  color: aliceblue;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+  }
+  .header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 10px rgb(61, 61, 61);
+
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 10px rgb(61, 61, 61);
+  }
+  
+  .ha{
+    width: auto;
+  }
+    @media( max-width: 768px) {
+    .movie{
+    max-width: 100%;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    display: block;
+    }
+    .movie-details{
+      display: block;
+    }
+  }
+.section-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.book{
+  margin-top: 2rem;
+}
+.book-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+  gap: 1.5rem;
+}
+@media(max-width: 1080px){
+  section{
+    padding: 3rem 0 2rem;
+  }
+  .shop{
+    margin-top: 2rem !important;
+  }
+}
+@media(max-width: 360px){
+  .book{
+    margin-top: 1rem !important;
+  }
+}
+@media(max-width: 540px){
+  .book-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap: 2rem;
+  }
+}
+@media(max-width: 800px){
+  .book-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap: 2.5rem;
+  }
+}
+@media(max-width: 1030px){
+  .book-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap: 3rem;
+  }
+}
+@media(max-width: 1280px){
+  .book-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap: 3.5rem;
+  }
+}
+  
+  
+  
+  
+    
+ 
+.name{
+  display: flex;
+  justify-content: center;
+}
+
+
+.container2{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  padding: 70px 0;
+  border-radius: 30px;
+  border-top: dotted;
+  border-color: rgba(169, 169, 169, 0.425);
+ 
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+font-size: 18px;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #1e65e9;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+   margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #1e65e9;
+  padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+    background-color: rgba(136, 138, 255, 0.37);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #002fff;
+  background-color: #000;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col {
+    width: 50%;
+    padding: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col {
+    width: 100%;
+}
+}
+
+.logo{
+  margin-left: 49.5%;
+  margin-right: 50%;
+  height: 0.7cm;
+  width: 0.7cm;
+}
+
+h6{
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+

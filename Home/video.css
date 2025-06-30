@@ -1,0 +1,423 @@
+.div1{
+    text-align: center;
+    background-image: url('Images/Cyberattaque contre le ministère des Affaires étrangères _ lAllemagne accuse la Russie.jpg');
+    color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 350px;
+    height: 3cm;
+}
+
+
+.logo{
+    height: 1.5cm;
+    width: 1.5cm;
+    margin-left: 48%;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+
+.div ul li{
+    margin-bottom: 50px;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: -1.3%;
+    padding-right: 0;
+    
+}
+
+.buuton{
+    border-top-color: rgb(21, 255, 0);
+    background-image: linear-gradient(360deg,  rgb(0, 255, 34) 0%, black 20%);
+    color: rgb(21, 255, 0);  
+    border-radius: 0px; 
+    width: 7cm; 
+    height: 1cm;
+}
+
+.buuton:hover{
+    border-color: rgb(17, 0, 255);
+    color: rgb(0, 4, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.5s ease;
+}
+
+
+.button{
+    background-color: black; 
+    color: aliceblue;  
+    border-radius: 0px; 
+    width: 7cm; 
+    height: 1cm;
+}
+
+
+.button:hover{
+    background-color: rgb(83, 81, 81);
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.5s ease;
+    border-color: green;
+}
+
+
+.div0{
+    border-bottom: dotted;
+    border-color: rgb(56, 56, 56);
+}
+body{
+    background-color: black;
+}
+.par{
+    color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.conc{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(114, 113, 113);
+    
+}
+
+
+div ul li button ::after{
+    background-color: rgb(35, 47, 87);
+    border-color: turquoise;
+}
+
+
+.form{
+    width: 2.9cm;
+    float: right;
+    font-size: x-small;
+    margin-top: -30px;
+    border-color: darkgrey;
+}
+.form:hover{
+    background-color: lawngreen;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.8s ease;
+    border-color: lawngreen;
+}
+
+
+
+
+
+img{
+    height: 1cm;
+    width: 6cm;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+.div4{
+    margin-bottom: 50px;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 70px;
+    
+}
+.btn{
+    width: 3cm;
+    height: 0.9cm;
+    border-radius: 20px;
+    background-color: rgb(0, 247, 255);
+}
+.div5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.btn a:hover{
+    color: white;
+}
+.btn:hover{
+    background-color: black;
+}
+.image{
+    height: 7cm;
+    width: 7cm;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #f50000be;
+
+}
+button{
+    padding: 6px 12px;
+    margin: 0.5em 0;
+    background: #535353;
+    color: #ffffff;
+    border: none;
+    border-top-color: #ff0000;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    height: 0.8cm;
+}
+button:hover{
+   background-color: #000000be;
+   padding-left: 10px;
+   transition: 0.5s;
+   color: #ffffff;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #1ee939;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+
+.footer-col ul li .a{
+    color: grey;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li .a:hover{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 20px 20px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    
+    transition: all 0.5s ease;
+}
+.links{
+    display: -webkit-inline-flex;
+    margin-left: -15%;
+}
+.footer-col .social-links .alink1:hover{
+    
+    background-color: #1900ff;
+}
+
+.footer-col .social-links .alink2:hover{
+    
+    background-color: #ff0095;
+}
+
+.footer-col .social-links .alink3:hover{
+    
+    background-color: #0099ff;
+}
+
+.alink1{
+    color: blue;
+    
+}
+.alink1:hover{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all 0.5s ease;
+}
+
+.alink2{
+    color: rgb(255, 0, 157);
+}
+.alink2:hover{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all 0.5s ease;
+}
+
+.alink3{
+    color: rgb(0, 183, 255);
+}
+.alink3:hover{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all 0.5s ease;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 15px;
+}
+footer{
+    margin-top: 2%;
+    border-top: dotted;
+    border-top-color: rgb(163, 163, 163);
+    border-radius: 40px;
+}
+h6{
+    text-align: center;
+    color: rgb(207, 212, 207);
+    margin-bottom: 0%;
+}
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .div4{
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    .div5{
+        margin-bottom: 30px;
+        width: 50%;
+    }
+}
+@media(max-width) {
+    .footer-col {
+        width: 100px;
+    }
+}
+.div4{
+    height: 3cm;
+}
+@media(max-width: 767px) {
+    form{
+        margin-right: 30%;
+        margin-left: 30%;
+        backdrop-filter: blur(15px);
+        border-radius: 5%;
+        text-align: center;
+        margin-bottom: 1%;
+        width: 40%;
+    }
+}
+
+
+
+
+.loader{
+    background-color: black;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s, visibility 1s;
+}
+.loader--hidden{
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.loader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid black;
+    border-top-color: rgb(223, 223, 223);
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+@media(max-width: 767px){
+    .signup{
+        height: 0.5cm;
+        width: 0.7cm;
+        margin-left: -500%;
+        
+    }
+
+    .login{
+        margin-left: -19%;
+        margin-right: -300%;
+        
+    }
+
+    .button{
+        width: 2cm;
+        margin-left: -100%;
+    }
+
+    .buuton{
+        width: 2cm;
+        margin-left: -100%;
+    }
+
+    .div ul li{
+        margin-right: -4%;
+    }
+    .div1{
+        border-radius: 5%;/*login and signup button*/
+    }
+}

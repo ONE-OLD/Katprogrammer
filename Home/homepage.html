@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAT Programmers</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="Images/IMG_Copy.PNG" type="image/x-icon">
+    <script>
+        function handleSearch(event) {
+            event.preventDefault();
+
+            const searchInput = document.getElementById('search').value.toLowerCase();
+            
+            const pageMap = {
+                'html': 'html.html',
+                'css': 'css.html',
+                'javascript': 'javascript.html',
+                'mysql': 'Mysql.html',
+                'c++': 'cpp.html',
+                'python': 'python.html',
+                'tutorial of html': 'tutorial of html.html',
+                'video of html': 'tutorial of html.html',
+                'tutorial of css': 'tutorial of css.html',
+                'tutorial of mysql': 'tutorial of css.html',
+                'tutorial of javascript': 'tutorial of css.html',
+                'tutorial of c++': 'tutorial of css.html',
+                'tutorial of python': 'tutorial of css.html',
+                'tags': 'html.html',
+                'comment': 'html.html',
+                'tag of video': 'html.html',
+                'tag of image': 'html.html',
+                'tag of audio': 'html.html',
+                'tag of link': 'html.html' ,
+                'cpp': 'cpp.html'
+            };
+
+            if (pageMap[searchInput]) {
+                window.location.href = pageMap[searchInput]; 
+            } else {
+                window.alert('No matching with your search, try again'); 
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="Sub"><a href="chat.html"><button type="button"><img class="chat" src="Images/chst.PNG" alt=""></button></a></div>
+
+    <div class="loader loader--hidden"></div>
+    <div class="div1">
+        <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; background-image: linear-gradient(180deg, #fbff00 0%, #ea00ff 100%, rgb(0, 255, 34) 100%); -webkit-background-clip: text; color: transparent;">WELCOME</h1><br>
+
+        <img src="Images/kat-LogoMakr.png" alt=""><br>
+    </div>
+    <div class="div0">
+        <div class="div">
+            <ul>
+                <li><a href="homepage.html" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: aliceblue;"><button class="buuton">Home</button></a></li>
+                <li><a href="image.html" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: aliceblue;"><button class="button">Image</button></a></li>
+                <li><a href="video.html" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: aliceblue;"><button class="button">Tutorials</button></a></li>
+                <li><a href="index.html" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: aliceblue;"><button class="button">App store</button></a></li>
+                <li><a href="about.html" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: aliceblue;"><button class="button">About</button></a></li>
+                <li><form onsubmit="handleSearch(event)">
+                    <label for="search">Search:</label>
+                    <input class="search" style="height: 0.7cm; border-top-left-radius: 10px; border-bottom-left-radius: 10px; background-color: rgb(0, 0, 0); color: white; border-color: blue;" type="search" id="search" name="search" list="search-options" placeholder="Type here to Search...">
+                    <datalist id="search-options">
+                        <option value="html">
+                        <option value="css">
+                        <option value="javascript">
+                        <option value="mysql">
+                        <option value="tutorial of html">
+                        <option value="tutorial of css">
+                        <option value="tutorial of mysql">
+                        <option value="tutorial of javascript">
+                        <option value="tutorial of cpp">
+                        <option value="tutorial of python">
+                        <option value="tutorial of c++">
+                        <option value="cpp">
+                        <option value="python">
+                        <option value="c++">               
+                    </datalist>
+                    <input class="bsearch" style="height: 0.7cm; margin-left: -0.1cm; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-color: rgb(47, 197, 60); background-color: black; color: aliceblue;" type="submit" value="Search">
+                </form></li>
+            </ul>
+        </div>
+        <p>Welcome to KAT-Programmers where you can learn all pragramming languages, including: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JAVASCRIPT</strong>, <strong>C++</strong>, <strong>PYTHON</strong>, <strong>MYSQL</strong>, <strong>CMD</strong>, <strong>etc...</strong> This website is for begginers who wants to study the programming languages. The most popularly software used in programming is <strong>VISUAL STUDIO CODE(VS CODE). </strong>Other software that can be used in programming is <strong>NETBEANS,</strong> but the simple software that can help you to get all programming languages easier is <strong>VS CODE</strong>. Let start with your own choice of programming languages you want to study.</p>
+        
+        <div class="div3">
+            <div class="div4">
+              <img class="image" src="Images/html logo- Websites, Applications and Software.jpg" alt=""><br>
+              <a href="html.html"><button type="button">Learn HTML</button></a>
+            </div>
+            <div class="div4">
+              <img class="image" src="Images/css.jpg" alt=""><br>
+              <a href="css.html"><button type="button">Learn CSS</button></a>
+            </div>
+            <div class="div4">
+              <img class="image" src="Images/MySQL Logo.jpg" alt=""><br>
+              <a href="mysql.html"><button type="button">Learn MYSQL</button></a>
+            </div>
+            <div class="div4">
+              <img class="image" src="Images/JavaScript.jpg" alt=""><br>
+              <a href="javascript.html"><button type="button">Learn JAVASCRIPT</button></a>
+            </div>
+            <div class="div4">
+              <img class="image" src="Images/C++.jpg" alt=""><br>
+              <a href="cpp.html"><button type="button">Learn C++</button></a>
+            </div>
+            <div class="div4">
+               <img class="image" src="Images/Python - MI PORTAL.jpg" alt=""><br>
+               <a href="python.html"><button type="button">Learn PYTHON</button></a>
+            </div>
+        </div>
+        <div style="margin-top: 3cm;">
+            <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; background-image: linear-gradient(90deg, #00ff2a 30%, #0004ff 55%, rgb(255, 0, 234) 65%); -webkit-background-clip: text;  color: transparent;">&lt;BOOKS OF ALL PROGRAMMING LANGUAGES&gt;</h1><br>
+
+        </div>
+        <p style="text-align: center;">For full information to those ones who wants to read all books of above programing languages, it so easy just click to the button follow, these books will help you
+            to find your course in full terms. These books also will help you to understand well the programming languages, because it has full course. You are welcome again in this website.
+            click <a style="color: aqua;" href="home.html">here</a> or click the following button. <br> <a style="color: rgb(60, 255, 0);" href="book's shelf KAT professional\home.html"><button type="button" style="border-radius: 9px; background-image: linear-gradient(90deg, yellow, blue 30%);">BOOKS</button></a>
+        </p>
+
+        <div class="div5">
+            <div>
+                <p>The Beginners must know how to use <strong>HTML</strong>. Because this programming language is very easy and important, it is the key of start learning programming languages. The syntax of used in html are easy. <b>HTML</b>(<b>H</b>yper <b>T</b>ext <b>M</b>ake-up  <b>L</b>anguage). Click to the following button: <a href="Books/html5canvasnotesforprofessionals.pdf"><button type="button" class="btn">HTML</button></a></p>
+            </div>
+        </div>
+        <div class="div5">
+            <div>
+                <p>After studying HTML. The Beginners must know how to use <strong>CSS</strong>. Because this programming language is very easier than MYSQL and is very important to programmers because we should design our creation website, and is the key of start learning programming languages. The syntax of used in html are easy. <b>CSS</b>(<b>C</b>ascading <b>S</b>tyle <b>S</b>heet). Click to the following button: <a href="Books/CSSNotesForProfessionals.pdf"><button type="button" class="btn">CSS</button></a></p>
+            </div>
+        </div>
+        <div class="div5">
+            <div>
+                <p>After studying CSS. The Beginners must know how to use <strong>MYSQL</strong>. Because this programming language is very easier than JAVASCRIPT and is very important, it's importance is to store data or information from website through form, and is the key of start learning programming languages. The syntax of used in html are easy. <b>MYSQL</b>. Click to the following button: <a href="Books/mysqlnotesforprofessionals.pdf"><button type="button" class="btn">MYSQL</button></a></p>
+            </div>
+        </div>
+        <div class="div5">
+            <div>
+                <p>After studying MYSQL. The Beginners must know how to use <strong>JAVASCRIPT</strong>. Because this programming language is very easy and important, it is the key of start learning programming languages. The syntax of used in html are easy. Click to the following button: <a href="Books/JavaScriptNotesForProfessionals (2).pdf"><button type="button" class="btn">JAVASCRIPT</button></a></p>
+            </div>
+        </div>
+        <div class="div5">
+            <div>
+                <p>The Beginners must know how to use <strong>C++</strong>. Because this programming language is very easy and important, it is the key of start learning programming languages. The syntax of used in html are easy. <b>C++</b>(<b>C</b>lass <b>++</b>). Click to the following button: <a href="Books/C++ language.pdf"><button type="button" class="btn">C++</button></a></p>
+            </div>
+        </div>
+        <div class="div5">
+            <div>
+                <p>The Beginners must know how to use <strong>PYTHON</strong>. Because this programming language is very easy and important, it is the key of start learning programming languages. The syntax of used in html are easy. <b>PYTHON</b>. Click to the following button: <a href="Books/pythonnotesforprofessionals.pdf"><button type="button" class="btn">PYTHON</button></a></p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p style="text-align: center;">For full information to those ones who wants to read all books of above programing languages, it so easy just click to the button follow, these books will help you
+                    to find your course in full terms. These books also will help you to understand well the programming languages, because it has full course. You are welcome again in this website.
+                    click <a style="color: aqua;" href="home.html">here</a> or click the following button. <br> <a style="color: rgb(60, 255, 0);" href="book's shelf KAT professional/home.html"><button type="button" style="border-radius: 9px; background-image: linear-gradient(90deg, yellow, blue 30%);">BOOKS</button></a>
+                </p>
+        
+        
+            </div>
+        </div>
+    </div><br>
+    <div>
+        <h1 class="conc">Conclusion</h1>
+        <div>
+            <p class="par">This website includes all programming languages, it helps beginners to know the important and how to use it and where used for. If you get a problem contact to the help center in below footer. The purpose of this website is for increasing technology around the world. Other purpose of this website is to avoid crimes around the world and the last purpose is reduce work around the world. The most popularly software used in programming is <strong>VISUAL STUDIO CODE(VS CODE). </strong>Other software that can be used in programming is <strong>NETBEANS.</strong></p>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Contact us</h4>
+                    <ul class="link">
+                      <li><a class="a" href="#">kwizerarsn@gmail.com</a></li>
+                      <li><a class="a" href="#">katprogrammers@gmail.com</a></li>
+                      <li><a class="a" href="#">domnhallgrayson@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Adress</h4>
+                  <ul class="link">
+                      <li><a class="a" href="#">East Africa</a></li>
+                      <li><a class="a" href="#">Kigali/Rwanda</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>About</h4>
+                  <ul class="link">
+                      <li><a class="a" href="#">This website is for begginers who wants to study programming languages.</a></li>
+                      <li><a class="a" href="#">This website was created by the team of arsprogrammers.</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>Follow us</h4>
+                  <div class="social-links">
+                      <ul class="links">
+                          <li class="link1"><a class="alink1" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li class="link2"><a class="alink2" href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li class="link3"><a class="alink3" href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li class="link3"><a class="alink3" href="#"><i class="fab fa-lock"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+   </footer>
+   <div class="Subscribe">Subscribe</div>
+   <img class="logo" src="Images/IMG_Copy.PNG" alt="">
+   <h6>&copy;2024 KAT-PROGRAMMERS FROM ARS</h6>
+
+</body>
+</html>
