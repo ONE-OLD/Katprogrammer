@@ -1,0 +1,919 @@
+body{
+    background-color: black;
+}
+
+
+
+.logo{
+    height: 1.5cm;
+    width: 1.5cm;
+    margin-left: 48%;
+    margin-right: 0;
+    margin-top: 20px;
+    border-radius: 50%;
+    border-color: rgb(110, 163, 31);
+}
+
+.div10 i{
+    margin-left: -70%;
+    color: blue;
+}
+.div10{
+    margin-left: -22%;
+}
+.div11 i{
+    margin-left: -23%;
+    color: blue;
+}
+.div11 input{
+    margin-left: 19%;
+}
+.div11{
+    margin-left: -73%;
+}
+.div1{
+    text-align: center;
+    background-image: url('Home/Images/Cyberattaque contre le ministère des Affaires étrangères _ lAllemagne accuse la Russie.jpg');
+    color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 350px;
+    height: 3.5cm;
+    justify-content: center;
+
+}
+img{
+    height: 1.5cm;
+    width: 7cm;
+    color: blanchedalmond;
+    margin-top: 2%;    
+    background-color: white;
+    border-radius: 10px;
+}
+h6{
+    color: #bdbbbb;
+    text-align: center;
+}
+.div2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+form{
+    color: white;
+    margin-bottom: 3%;
+    box-shadow: 3px 3px 20px 20px rgb(0, 45, 129);
+    margin-left: 730px;
+    margin-right: 730px;
+    border-radius: 30px;
+    height: 10cm;
+}
+input{
+    margin-bottom: 3%;
+}
+.space{
+    height: 1cm;
+    width: 10cm;
+    background-color: transparent;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-color: rgb(110, 163, 31);
+    border-left-color: rgb(110, 163, 31);
+    border-right-color:  rgb(19, 19, 102);
+    border-bottom-color: rgb(19, 19, 102);
+    margin-left: -43%;
+    margin-bottom: 1cm;
+}
+
+
+.space0{
+    height: 1cm;
+    width: 10cm;
+    background-color: transparent;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-color: rgb(110, 163, 31);
+    border-left-color: rgb(110, 163, 31);
+    border-right-color:  rgb(19, 19, 102);
+    border-bottom-color: rgb(19, 19, 102);
+    margin-left: -49%;
+}
+
+
+.space2{
+    height: 1cm;
+    width: 3.1cm;
+    background-color: transparent;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-color: rgb(110, 163, 31);
+    border-left-color: rgb(110, 163, 31);
+    border-right-color:  rgb(19, 19, 102);
+    border-bottom-color: rgb(19, 19, 102);
+}
+
+
+::placeholder{
+    color: rgb(110, 163, 31);;
+}
+
+.space1{
+    height: 1cm;
+    width: 4.8cm;
+    background-color: transparent;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-top-color: rgb(110, 163, 31);
+    border-left-color: rgb(110, 163, 31);
+    border-right-color:  rgb(19, 19, 102);
+    border-bottom-color: rgb(19, 19, 102);
+}
+::placeholder{
+    text-align: center;
+}
+.button{
+    background-color: rgba(0, 255, 213, 0.774);
+    height: 1cm;
+    width: 10cm;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    border-color: rgba(0, 255, 213, 0.774);
+    margin-bottom: 1cm;
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 55);
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.5s ease;
+    border-color: green;
+}
+
+
+.have{
+    color: rgb(255, 254, 254);
+    margin-left: -16%;
+    margin-bottom: 5%;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+.have:hover{
+    color: chartreuse;
+    transition: all 0.5s ease;
+}
+a{
+    color: rgb(255, 254, 254);
+    font-size: small;
+    margin-left: 9%;
+    margin-top: 3%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lik0{
+    color: greenyellow;
+    font-size: small;
+    margin-left: -1%;
+    margin-top: -20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lik0:hover{
+    color: rgb(255, 0, 0)
+}
+
+.lik1{
+    color: blue;
+}
+
+.lik1:hover{
+    color: rgb(255, 0, 0);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.lik2{
+    background-color: rgb(22, 124, 56);
+    height: 1cm;
+    width: 10cm;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -8%;
+}
+.lik2:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.5s ease;
+}
+.lik2 a{
+    margin-left: 2%;
+}
+p{
+    color: grey;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 15px;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    margin-top: 2%;
+    border: dotted;
+    border-top-color: rgb(129, 131, 129);
+    border-radius: 40px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #1ee939;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li .a{
+    color: grey;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li .a:hover{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 20px 20px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    
+    transition: all 0.5s ease;
+}
+.links{
+    display: -webkit-inline-flex;
+    margin-left: -15%;
+}
+.footer-col .social-links .alink1:hover{
+    
+    background-color: #1900ff;
+}
+
+.footer-col .social-links .alink2:hover{
+    
+    background-color: #ff0095;
+}
+
+.footer-col .social-links .alink3:hover{
+    
+    background-color: #0099ff;
+}
+
+.alink1{
+    color: blue;
+    
+}
+.alink1:hover{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all 0.5s ease;
+}
+
+.alink2{
+    color: rgb(255, 0, 157);
+}
+.alink2:hover{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all 0.5s ease;
+}
+
+.alink3{
+    color: rgb(0, 183, 255);
+}
+.alink3:hover{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all 0.5s ease;
+}
+
+h6{
+    text-align: center;
+    color: rgb(207, 212, 207);
+    margin-bottom: 0%;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width) {
+    .footer-col {
+        width: 100px;
+    }
+}
+.div4{
+    height: 3cm;
+}
+
+
+.loader{
+    background-color: black;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s, visibility 2s;
+}
+.loader--hidden{
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.loader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid black;
+    border-top-color: rgb(223, 223, 223);
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+@media (max-width: 360px) {
+    body{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    form{
+        height: 7cm;
+        width: 6cm;
+        margin: 0%;
+        margin-left: 0.5cm;
+        box-shadow: 5px 5px 5px 5px blue;
+
+    }
+    
+    ::placeholder{
+        font-size: 8px;
+    }
+    footer{
+        width: 7cm;
+        border-radius: 0%;
+        margin-top: 1.5cm;
+    }
+
+    form h1{
+        font-size: 20px;
+    }
+    .div10{
+        margin: 0%;
+    }
+    .div10 i{
+        margin: -80%;
+        font-size: 15px;
+    }
+    .space{
+        margin: 0%;
+        margin-bottom: 0.4cm;
+        margin-left: -150%;
+        width: 4.7cm;
+        height: 0.5cm;
+    }
+    .lik0{
+        margin: 0%;
+        width: 4cm;
+        font-size: 8px;
+    }
+
+    .lik1{
+        margin: 0%;
+        width: 4cm;
+        font-size: 8px;
+        margin-left: 1cm;
+        color: red;
+    }
+
+    .button{
+        margin: 0%;
+        width: 5cm;
+        height: 0.7cm;
+        font-size: 9px;
+    }
+
+    .lik2{
+        margin: 0%;
+        width: 5cm;
+        height: 0.7cm;
+        font-size: 10px;
+    }
+
+    .alik2{
+        margin: 0%;
+    }
+
+    img{
+        margin: 5%;
+        height: 0.7cm;
+        width: 5cm;
+    }
+
+    .div1{
+        border-radius: 0%;
+        height: 2cm;
+    }
+    .footer-col h4{
+        margin: 0%;
+        font-size: 10px;
+    }
+    .link li{
+        margin: 0%;
+        font-size: 1px;
+    }
+
+    .logo{
+        height: 0.5cm;
+        width: 0.5cm;
+    }
+    h6{
+        font-size: 5px;
+    }
+}
+@media (max-width: 425px) {
+    body{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+    }
+    form{
+        height: 8cm;
+        width: 8cm;
+        margin: 0%;
+        margin-left: 0.5cm;
+        box-shadow: 5px 5px 5px 5px blue;
+
+    }
+    
+    ::placeholder{
+        font-size: 12px;
+    }
+    footer{
+        width: 7cm;
+        border-radius: 0%;
+        margin-top: 1.5cm;
+    }
+
+    form h1{
+        font-size: 20px;
+    }
+    .div10{
+        margin: 0%;
+    }
+    .div10 i{
+        margin: -80%;
+        font-size: 17px;
+    }
+    .space{
+        margin: 0%;
+        margin-bottom: 0.4cm;
+        margin-left: -150%;
+        width: 6.5cm;
+        height: 0.7cm;
+        padding: 10px;
+    }
+    .lik0{
+        margin: 0%;
+        width: 4cm;
+        font-size: 10px;
+    }
+
+    .lik1{
+        margin: 0%;
+        width: 4cm;
+        font-size: 10px;
+        margin-left: 1cm;
+        color: red;
+    }
+
+    .button{
+        margin: 0%;
+        width: 7cm;
+        height: 0.7cm;
+        font-size: 12px;
+    }
+
+    .lik2{
+        margin: 0%;
+        width: 7cm;
+        height: 0.7cm;
+        font-size: 12px;
+    }
+
+    .alik2{
+        margin: 0%;
+    }
+
+    img{
+        margin: 5%;
+        height: 0.7cm;
+        width: 5cm;
+    }
+
+    .div1{
+        border-radius: 0%;
+        height: 2cm;
+    }
+    .footer-col h4{
+        margin: 0%;
+        font-size: 10px;
+    }
+    .link li{
+        margin: 0%;
+        font-size: 1px;
+    }
+
+    .logo{
+        height: 0.5cm;
+        width: 0.5cm;
+    }
+    h6{
+        font-size: 5px;
+    }
+}
+@media (max-width: 430px) {
+    body{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+    }
+    form{
+        height: 8cm;
+        width: 8cm;
+        margin: 0%;
+        margin-left: 1.5cm;
+        box-shadow: 5px 5px 5px 5px blue;
+
+    }
+    
+    ::placeholder{
+        font-size: 12px;
+    }
+    footer{
+        width: 7cm;
+        border-radius: 0%;
+        margin-top: 1.5cm;
+    }
+
+    form h1{
+        font-size: 20px;
+    }
+    .div10{
+        margin: 0%;
+    }
+    .div10 i{
+        margin: -80%;
+        font-size: 17px;
+    }
+    .space{
+        margin: 0%;
+        margin-bottom: 0.4cm;
+        margin-left: -150%;
+        width: 6.5cm;
+        height: 0.7cm;
+        padding: 10px;
+    }
+    .lik0{
+        margin: 0%;
+        width: 4cm;
+        font-size: 10px;
+    }
+
+    .lik1{
+        margin: 0%;
+        width: 4cm;
+        font-size: 10px;
+        margin-left: 1cm;
+        color: red;
+    }
+
+    .button{
+        margin: 0%;
+        width: 7cm;
+        height: 0.7cm;
+        font-size: 12px;
+    }
+
+    .lik2{
+        margin: 0%;
+        width: 7cm;
+        height: 0.7cm;
+        font-size: 12px;
+    }
+
+    .alik2{
+        margin: 0%;
+    }
+
+    img{
+        margin: 5%;
+        height: 0.7cm;
+        width: 5cm;
+    }
+
+    .div1{
+        border-radius: 0%;
+        height: 2cm;
+    }
+    .footer-col h4{
+        margin: 0%;
+        font-size: 10px;
+    }
+    .link li{
+        margin: 0%;
+        font-size: 1px;
+    }
+
+    .logo{
+        height: 0.5cm;
+        width: 0.5cm;
+    }
+    h6{
+        font-size: 5px;
+    }
+}
+@media (max-width: 414px) {
+    body{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+    }
+    form{
+        height: 8cm;
+        width: 8cm;
+        margin: 0%;
+        margin-left: 1.2cm;
+        box-shadow: 5px 5px 5px 5px blue;
+
+    }
+    
+    ::placeholder{
+        font-size: 12px;
+    }
+    footer{
+        width: 7cm;
+        border-radius: 0%;
+        margin-top: 1.5cm;
+    }
+
+    form h1{
+        font-size: 20px;
+    }
+    .div10{
+        margin: 0%;
+    }
+    .div10 i{
+        margin: -80%;
+        font-size: 17px;
+    }
+    .space{
+        margin: 0%;
+        margin-bottom: 0.4cm;
+        margin-left: -150%;
+        width: 6.5cm;
+        height: 0.7cm;
+        padding: 10px;
+    }
+    .lik0{
+        margin: 0%;
+        width: 4cm;
+        font-size: 10px;
+    }
+
+    .lik1{
+        margin: 0%;
+        width: 4cm;
+        font-size: 10px;
+        margin-left: 1cm;
+        color: red;
+    }
+
+    .button{
+        margin: 0%;
+        width: 7cm;
+        height: 0.7cm;
+        font-size: 12px;
+    }
+
+    .lik2{
+        margin: 0%;
+        width: 7cm;
+        height: 0.7cm;
+        font-size: 12px;
+    }
+
+    .alik2{
+        margin: 0%;
+    }
+
+    img{
+        margin: 5%;
+        height: 0.8cm;
+        width: 5cm;
+    }
+
+    .div1{
+        border-radius: 0%;
+        height: 2cm;
+    }
+    .footer-col h4{
+        margin: 0%;
+        font-size: 10px;
+    }
+    .link li{
+        margin: 0%;
+        font-size: 1px;
+    }
+
+    .logo{
+        height: 0.5cm;
+        width: 0.5cm;
+    }
+    h6{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 360px) {
+    body{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+    }
+    form{
+        height: 10cm;
+        width: 14cm;
+        margin: 0%;
+        margin-left: 3cm;
+        box-shadow: 5px 5px 5px 5px blue;
+
+    }
+    
+    ::placeholder{
+        font-size: 15px;
+    }
+    footer{
+        width: 7cm;
+        border-radius: 0%;
+        margin-top: 1.5cm;
+    }
+
+    form h1{
+        font-size: 27px;
+    }
+    .div10{
+        margin: 0%;
+    }
+    .div10 i{
+        margin: -75%;
+        font-size: 20px;
+    }
+    .space{
+        margin: 0%;
+        margin-bottom: 0.8cm;
+        margin-left: -145%;
+        width: 10cm;
+        height: 0.7cm;
+        padding: 10px;
+    }
+    .lik0{
+        margin: 0%;
+        width: 4cm;
+        font-size: 15px;
+    }
+
+    .lik1{
+        margin: 0%;
+        width: 4cm;
+        font-size: 15px;
+        margin-left: 3cm;
+        color: red;
+    }
+
+    .button{
+        margin: 0%;
+        width: 10cm;
+        height: 0.9cm;
+        font-size: 12px;
+    }
+
+    .lik2{
+        margin: 0%;
+        width: 7cm;
+        height: 0.7cm;
+        font-size: 12px;
+    }
+
+    .alik2{
+        margin: 0%;
+    }
+
+    img{
+        margin: 5%;
+        height: 0.7cm;
+        width: 5cm;
+    }
+
+    .div1{
+        border-radius: 0%;
+        height: 2cm;
+    }
+    .footer-col h4{
+        margin: 0%;
+        font-size: 10px;
+    }
+    .link li{
+        margin: 0%;
+        font-size: 1px;
+    }
+
+    .logo{
+        height: 0.5cm;
+        width: 0.5cm;
+    }
+    h6{
+        font-size: 5px;
+    }
+}
+
